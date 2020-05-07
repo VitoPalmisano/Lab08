@@ -6,6 +6,8 @@ public class TestModel {
 		
 		Model model = new Model();
 
+		model.creaGrafo(0);
+		System.out.println(model.nVertici()+" "+model.nArchi());
 	}
 
 }
